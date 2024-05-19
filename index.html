@@ -2,34 +2,49 @@
 <html>  
 
 
-
-
-
-
 <head>
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
-
-
 <body>
-    <div class="container">
-        <div class="header">
-            <h2>Home Page</h2>
-        </div>
+
+    <header>
+    
+    <nav><div class="navBar">
+            <a href="#">ABOUT</a>
+            <a href="#">WORK</a>
+            <a href="#">SKILLS</a>
+            <a href="#">CONTACT</a>
+        </div></nav></header>
+
+            <div class="container">
         <div class="content">
             <a href="login.php">Login</a>
             <a href="register.php">Register</a>
         </div>
     </div>
 
+    <div class="hero">
+        <h1>WELCOME TO MY PORTFOLIO</h1>
+        <p>My name is <span>John Doe</span> and I am a web developer</p>
+    </div>
+
+
    
    
-   
-    <script src="jquery-3.5.1.min.js"></script>
+<div class="parallax"></div>
+
+<script src="jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            var scrollTop = $(this).scrollTop();
+            $('.parallax').css('background-position', 'center ' + scrollTop / 2 + 'px');
+        });
+    });
+</script>
 
 </body>
 </html>

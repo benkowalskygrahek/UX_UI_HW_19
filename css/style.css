@@ -1,0 +1,88 @@
+.navBar {
+    font-family: "Futura", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    display: grid;
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+    grid-template-areas: "home about portfolio contact";
+    color: white;
+    padding: 10px;
+    align-items:end;
+
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: "Futura", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: var(--Color---Primary, #092C4C);
+    font-family: Futura;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61.6px; /* 110% */
+}
+
+h2 {
+    color: var(--Color---Primary, #092C4C);
+    font-family: Futura;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.8px; /* 110% */
+}
+
+h3 {
+    color: var(--Color---Primary, #092C4C);
+font-family: Futura;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px; /* 110% */
+}
+
+h4 {
+    color: var(--Color---Primary, #092C4C);
+    font-family: Futura;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.2px; /* 110% */
+}   
+
+h5 {
+    color: var(--Color---Primary, #092C4C);
+    font-family: Futura;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.4px; /* 110% */
+}   
+
+h6 {
+    color: var(--Color---Primary, #092C4C);
+    font-family: Futura;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 110% */
+}
+
+p {
+    color: var(--Color---Primary, #092C4C);
+    font-family: Futura;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+
