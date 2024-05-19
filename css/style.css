@@ -7,8 +7,8 @@
     grid-column-start: auto;
     grid-row-end: auto;
     grid-row-start: auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: 4fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas: "home about portfolio contact";
     color: white;
     padding: 10px;
