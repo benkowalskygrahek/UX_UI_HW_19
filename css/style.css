@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color: #f0f0f0;
+    background-image: url("../images/Rectangle.png");
     font-family: "Futura", sans-serif;
     margin: 0;
     padding: 0;
@@ -86,3 +86,8 @@ p {
     line-height: 22px; /* 137.5% */
 }
 
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    height: auto ;
+}
